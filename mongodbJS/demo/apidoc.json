@@ -1,0 +1,7 @@
+{
+    "name": "新手api接口开发学习文档",
+    "version": "0.0.1",
+    "description": "基于nodejs开发的API学习项目",
+    "title": "Api文档",
+    "url" : "http://localhost:3000/api"
+}
