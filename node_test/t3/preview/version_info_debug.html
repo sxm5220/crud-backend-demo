@@ -1,0 +1,142 @@
+<html>
+  <head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>i5ting_ztree_toc:version_info_debug</title>
+		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+	  <style>
+		pre {
+		    counter-reset: line-numbering;
+		    border: solid 1px #d9d9d9;
+		    border-radius: 0;
+		    background: #fff;
+		    padding: 0;
+		    line-height: 23px;
+		    margin-bottom: 30px;
+		    white-space: pre;
+		    overflow-x: auto;
+		    word-break: inherit;
+		    word-wrap: inherit;
+		}
+
+		pre a::before {
+		  content: counter(line-numbering);
+		  counter-increment: line-numbering;
+		  padding-right: 1em; /* space after numbers */
+		  width: 25px;
+		  text-align: right;
+		  opacity: 0.7;
+		  display: inline-block;
+		  color: #aaa;
+		  background: #eee;
+		  margin-right: 16px;
+		  padding: 2px 10px;
+		  font-size: 13px;
+		  -webkit-touch-callout: none;
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+
+		pre a:first-of-type::before {
+		  padding-top: 10px;
+		}
+
+		pre a:last-of-type::before {
+		  padding-bottom: 10px;
+		}
+
+		pre a:only-of-type::before {
+		  padding: 10px;
+		}
+
+		.highlight { background-color: #ffffcc } /* RIGHT */
+		</style>
+  </head>
+  <body>
+	  <div>
+				<div style='width:25%;'>
+						<ul id="tree" class="ztree" style='width:100%'>
+
+						</ul>
+				</div>
+        <div id='readme' style='width:70%;margin-left:20%;'>
+          	<article class='markdown-body'>
+            	<h1 id="2024-3-18-1-0-0-10-">2024.3.18 1.0.0（10）</h1>
+<pre><code>1.更换App图标及开屏图颜色#ff671d
+2.使用flutter3.19.2版本（该版本最低支持iOS12.0，不再支持iOS11.0）
+</code></pre><h1 id="2024-3-5-1-0-0-9-">2024.3.5  1.0.0（9）</h1>
+<pre><code>1.使用hive做本地缓存
+2.更新设备的错误码表
+</code></pre><h1 id="2024-3-4-1-0-0-8-">2024.3.4  1.0.0（8）</h1>
+<pre><code>1.修复Android端极光登录bug
+2.读取设备序列号
+3.使用香港服务器
+</code></pre><h1 id="2024-2-27-1-0-0-7-">2024.2.27  1.0.0（7）</h1>
+<pre><code>1.优化蓝牙连接
+2.固件升级测试成功
+3.判断同类型设备不可同时连接
+4.步数显示按照（m、w、k）显示
+</code></pre><h1 id="2024-2-27-1-0-0-6-">2024.2.27  1.0.0（6）</h1>
+<pre><code>1.优化项目
+2.升级插件版本
+3.电量控件添加气泡🫧（抗阻模式充电效果）
+</code></pre><h1 id="2024-2-18-1-0-0-5-">2024.2.18  1.0.0（5）</h1>
+<pre><code>1.优化登录及设备详情页面
+</code></pre><h1 id="2024-2-15-1-0-0-4-">2024.2.15  1.0.0（4）</h1>
+<pre><code>1.优化提示及登录页面添加flutter_keyboard_visibility 键盘显示状态
+</code></pre><h1 id="2024-2-13-1-0-0-3-">2024.2.13  1.0.0（3）</h1>
+<pre><code>1.优化开屏图
+2.添加Sign in with Apple
+</code></pre><h1 id="2024-2-12-1-0-0-2-">2024.2.12  1.0.0（2）</h1>
+<pre><code>1.修改极光登录（换新key）；去掉macos支持；添加firebase Google登录
+2.优化hive缓存，添加三方登录AppID登录
+3.添加视频播放插件
+4.添加开屏图，去掉性别参数显示
+5.添加模式（助力、冲刺、抗阻）
+</code></pre><h1 id="2023-12-30-1-0-0-1-">2023.12.30  1.0.0（1）</h1>
+<pre><code>1.新建Dnsys项目，使用Flutter框架开发（仅支持Android、iOS平台）
+2.添加文件上传、下载，添加训练，查询接口功能
+3.调试TcpServerCanDevice
+4.添加Android、iOS数据录制功能
+5.添加App图标和名称
+6.转换flutter版本（3.10.1）dart（3.0.1）
+7.黑白主题适配
+8.优化serverSocket数据存储
+9.使用系统tabbar
+10.优化route路由功能
+11.规整多语言名称；添加app版本升级OTA弹出提示框Dialog（仅Android端应用内升级）
+12.app添加更换头像图片功能；ble添加DnsysBleDevice类，实现ble端的读写
+13.极光认证功能（手机号一键登录）完成;优化文件上传云端方法;分析url_launcher使用（启动网页、电话拨号器、短信应用、邮件应用、地图）
+14.添加设备显示widget；添加二维码扫描widget
+15.添加了can_duck的使用说明，包括wifi配置和蓝牙配置
+16.重构基于flutter_reactive_ble插件，相关蓝牙设备搜索、连接、断开等等
+17.优化训练课程和训练类型选择功能；优化WheelSlider样式
+18.添加医院录制数据功能
+19.优化Android权限（鸿蒙系统2.0以上启动蓝牙权限）；优化训练记录异步压缩功能（flutter_isolate异步线程）
+20.重构项目，weidget整合优化
+</code></pre>
+          	</article>
+        </div>
+		</div>
+  </body>
+</html>
+<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+<script type="text/javascript" src="toc_conf.js"></script>
+
+<SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+    var css_conf = eval(markdown_panel_style);
+    $('#readme').css(css_conf)
+    
+    var conf = eval(jquery_ztree_toc_opts);
+		$('#tree').ztree_toc(conf);
+});
+//-->
+</SCRIPT>
